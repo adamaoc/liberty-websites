@@ -1,4 +1,4 @@
-patriot-websites
+Liberty Websites
 ================
 
-Website stack for Patriot-Websites.com
+Website stack for Liberty-Websites.com
