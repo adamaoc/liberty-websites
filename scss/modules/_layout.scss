@@ -1,0 +1,10 @@
+.navbar-brand {
+	/*text-transform: uppercase;*/
+	span {
+		color: $yellow;
+		font-size: 95%;
+		padding-right: 0.2em;
+		-webkit-transform: rotate(-35deg);
+		transform: rotate(-35deg);
+	}
+}
