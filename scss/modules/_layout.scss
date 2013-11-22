@@ -1,10 +1,22 @@
+
+h1, .navbar-brand {
+	font-family: $header-font-family;
+}
+
 .navbar-brand {
 	/*text-transform: uppercase;*/
 	span {
 		color: $yellow;
 		font-size: 95%;
-		padding-right: 0.2em;
+		padding-right: 0.3em;
 		-webkit-transform: rotate(-35deg);
 		transform: rotate(-35deg);
+		text-shadow: 1px 1px 1px #333;
+	}
+}
+
+.navbar {
+	a {
+		text-transform: uppercase;
 	}
 }

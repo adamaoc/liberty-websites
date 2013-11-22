@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 /*
  * Bootstrap v3.0.0
  *
@@ -7438,15 +7439,24 @@ code {
   font-size: 80%;
 }
 
+h1, .navbar-brand {
+  font-family: "Oswald", sans-serif;
+}
+
 .navbar-brand {
   /*text-transform: uppercase;*/
 }
 .navbar-brand span {
   color: #cec36e;
   font-size: 95%;
-  padding-right: 0.2em;
+  padding-right: 0.3em;
   -webkit-transform: rotate(-35deg);
   transform: rotate(-35deg);
+  text-shadow: 1px 1px 1px #333;
+}
+
+.navbar a {
+  text-transform: uppercase;
 }
 
 .header-img {
@@ -7456,4 +7466,12 @@ code {
   min-height: 100vh;
   background-size: cover;
   padding-top: 3.5em;
+  background-position: center center;
+  position: relative;
+}
+.header-img .header-article {
+  position: absolute;
+  bottom: 13%;
+  left: 2%;
+  width: 19em;
 }
