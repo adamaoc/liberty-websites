@@ -14,3 +14,16 @@
   left: 2%;
   width: 19em;
 }
+.header-img .header-img-scroll {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.inticement-section {
+  padding-top: 2em;
+}
