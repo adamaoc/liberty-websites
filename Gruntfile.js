@@ -22,8 +22,8 @@ module.exports = function(grunt) {
         },
         files: [
           'dist/**/*.html',
-          'dist/assets/css/{,*/}*.css',
-          'dist/assets/js/{,*/}*.js'
+          'assets/css/{,*/}*.css',
+          'assets/js/{,*/}*.js'
         ]
       }
     },
@@ -59,7 +59,7 @@ module.exports = function(grunt) {
         flatten: true,
         layout: 'layout.hbs',
         layoutdir: 'src/templates/layouts',
-        assets: 'dist/assets',
+        assets: 'assets',
         partials: ['src/templates/pages/*.hbs', 'src/templates/parts/*.hbs']
       },
       demo: {
@@ -75,12 +75,12 @@ module.exports = function(grunt) {
     copy: {
       css: {
         files: [
-          { expand: true, cwd: './css', src: ['./**/*.*'], dest: 'dist/assets/css' }
+          { expand: true, cwd: './css', src: ['./**/*.*'], dest: 'assets/css' }
         ]
       },
       js: {
         files: [
-          { expand: true, cwd: './js', src: ['./**/*.*'], dest: 'dist/assets/js' }
+          { expand: true, cwd: './js', src: ['./**/*.*'], dest: 'assets/js' }
         ]
       }
     }
