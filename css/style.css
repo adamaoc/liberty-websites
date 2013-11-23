@@ -790,30 +790,30 @@ pre code {
   clear: both;
 }
 
-.row, .inticement-section .inticement-wrap {
+.row, .enticement-section .enticement-wrap {
   /*margin-right: -15px;
   margin-left: -15px;*/
 }
 
-.row:before, .inticement-section .inticement-wrap:before,
+.row:before, .enticement-section .enticement-wrap:before,
 .row:after,
-.inticement-section .inticement-wrap:after {
+.enticement-section .enticement-wrap:after {
   display: table;
   content: " ";
 }
 
-.row:after, .inticement-section .inticement-wrap:after {
+.row:after, .enticement-section .enticement-wrap:after {
   clear: both;
 }
 
-.row:before, .inticement-section .inticement-wrap:before,
+.row:before, .enticement-section .enticement-wrap:before,
 .row:after,
-.inticement-section .inticement-wrap:after {
+.enticement-section .enticement-wrap:after {
   display: table;
   content: " ";
 }
 
-.row:after, .inticement-section .inticement-wrap:after {
+.row:after, .enticement-section .enticement-wrap:after {
   clear: both;
 }
 
@@ -829,14 +829,14 @@ pre code {
 .col-xs-10,
 .col-xs-11,
 .col-xs-12,
-.inticement-section .inticement,
+.enticement-section .enticement,
 .col-sm-1,
 .col-sm-2,
 .col-sm-3,
 .col-sm-4,
 .col-sm-5,
 .col-sm-6,
-.inticement-section .inticement,
+.enticement-section .enticement,
 .col-sm-7,
 .col-sm-8,
 .col-sm-9,
@@ -846,7 +846,7 @@ pre code {
 .col-md-1,
 .col-md-2,
 .col-md-3,
-.inticement-section .inticement,
+.enticement-section .enticement,
 .col-md-4,
 .col-md-5,
 .col-md-6,
@@ -932,7 +932,7 @@ pre code {
   width: 91.66666666666666%;
 }
 
-.col-xs-12, .inticement-section .inticement {
+.col-xs-12, .enticement-section .enticement {
   width: 100%;
 }
 
@@ -947,7 +947,7 @@ pre code {
   .col-sm-4,
   .col-sm-5,
   .col-sm-6,
-  .inticement-section .inticement,
+  .enticement-section .enticement,
   .col-sm-7,
   .col-sm-8,
   .col-sm-9,
@@ -976,7 +976,7 @@ pre code {
     width: 41.66666666666667%;
   }
 
-  .col-sm-6, .inticement-section .inticement {
+  .col-sm-6, .enticement-section .enticement {
     width: 50%;
   }
 
@@ -1144,7 +1144,7 @@ pre code {
   .col-md-1,
   .col-md-2,
   .col-md-3,
-  .inticement-section .inticement,
+  .enticement-section .enticement,
   .col-md-4,
   .col-md-5,
   .col-md-6,
@@ -1164,7 +1164,7 @@ pre code {
     width: 16.666666666666664%;
   }
 
-  .col-md-3, .inticement-section .inticement {
+  .col-md-3, .enticement-section .enticement {
     width: 25%;
   }
 
@@ -7453,6 +7453,10 @@ a {
   color: #7e2126;
 }
 
+.header-center {
+  text-align: center;
+}
+
 .navbar-brand {
   /*text-transform: uppercase;*/
 }
@@ -7526,40 +7530,101 @@ a {
   font-size: 0.8em;
 }
 
-.inticement-section {
+.enticement-section {
   padding-top: 2em;
-  /*.inticement-icon {
-  	background-color: $dark-red;
-  	height: 135px;
-  	max-width: 236px;
-  	margin: 0 auto;
-  	span {
-  		font-size: 6em;
-  		padding-top: 13px;
-  		color: $light-tan;
-  	}
-  }*/
 }
-.inticement-section .inticement-wrap {
+.enticement-section .enticement-wrap {
   padding: 0;
 }
-.inticement-section .inticement {
+.enticement-section .enticement {
   list-style: none;
   padding-bottom: 1em;
   text-align: center;
 }
-.inticement-section .inticement p {
+.enticement-section .enticement p {
   font-size: 0.9em;
   text-align: justify;
 }
-.inticement-section .inticement-icon {
+.enticement-section .enticement-icon {
   background-color: #bb3138;
   height: 135px;
   max-width: 236px;
   margin: 0 auto;
 }
-.inticement-section .inticement-icon span {
+.enticement-section .enticement-icon span {
   font-size: 6em;
   padding-top: 13px;
   color: #f0eac0;
+}
+
+.about-wrap {
+  background: #bb3138;
+  padding: 6em 0.5em 1em;
+}
+@media (min-width: 481px) {
+  .about-wrap {
+    padding: 6em 2em 5em;
+  }
+}
+.about-wrap .glyphicon-info-sign {
+  padding-right: 0.3em;
+  font-size: 90%;
+}
+.about-wrap h1 {
+  color: #f5f1d4;
+  font-size: 1.7em;
+}
+@media (min-width: 481px) {
+  .about-wrap h1 {
+    font-size: 3em;
+  }
+}
+.about-wrap .about-txt {
+  color: #f1f1f1;
+  padding: 0.2em;
+  max-width: 50em;
+  text-align: justify;
+}
+@media (min-width: 481px) {
+  .about-wrap .about-txt {
+    padding-left: 3em;
+  }
+}
+
+.contact-wrap {
+  background: #004E80;
+  padding: 6em 0.5em 1em;
+  box-shadow: inset 4px 6px 98px #00101a;
+}
+@media (min-width: 481px) {
+  .contact-wrap {
+    padding: 6em 2em 5em;
+  }
+}
+.contact-wrap .glyphicon-phone {
+  padding-right: 0.3em;
+  font-size: 90%;
+}
+.contact-wrap h1 {
+  color: #e7dd96;
+  font-size: 1.7em;
+}
+@media (min-width: 481px) {
+  .contact-wrap h1 {
+    font-size: 3em;
+  }
+}
+.contact-wrap .contact-txt {
+  color: #f1f1f1;
+  padding: 0.2em;
+  max-width: 50em;
+  text-align: justify;
+}
+@media (min-width: 481px) {
+  .contact-wrap .contact-txt {
+    padding-left: 3em;
+  }
+}
+.contact-wrap a {
+  color: #fff;
 }

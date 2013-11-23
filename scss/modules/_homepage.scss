@@ -30,13 +30,13 @@
 	}
 }
 
-.inticement-section {
+.enticement-section {
 	padding-top: 2em;
-	.inticement-wrap {
+	.enticement-wrap {
 		@extend .row;
 		padding: 0;
 	}
-	.inticement {
+	.enticement {
 		@extend .col-xs-12;
 		@extend .col-sm-6;
 		@extend .col-md-3;
@@ -48,19 +48,8 @@
 			text-align: justify;
 		}
 	}
-	/*.inticement-icon {
-		background-color: $dark-red;
-		height: 135px;
-		max-width: 236px;
-		margin: 0 auto;
-		span {
-			font-size: 6em;
-			padding-top: 13px;
-			color: $light-tan;
-		}
-	}*/
 
-	.inticement-icon {
+	.enticement-icon {
 		background-color: lighten($dark-red, 15%);
 		height: 135px;
 		max-width: 236px;
