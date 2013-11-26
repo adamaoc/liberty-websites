@@ -830,10 +830,12 @@ pre code {
 .col-xs-11,
 .col-xs-12,
 .enticement-section .enticement,
+.be-block .be-item,
 .col-sm-1,
 .col-sm-2,
 .col-sm-3,
 .col-sm-4,
+.be-block .be-item,
 .col-sm-5,
 .col-sm-6,
 .enticement-section .enticement,
@@ -932,7 +934,7 @@ pre code {
   width: 91.66666666666666%;
 }
 
-.col-xs-12, .enticement-section .enticement {
+.col-xs-12, .enticement-section .enticement, .be-block .be-item {
   width: 100%;
 }
 
@@ -945,6 +947,7 @@ pre code {
   .col-sm-2,
   .col-sm-3,
   .col-sm-4,
+  .be-block .be-item,
   .col-sm-5,
   .col-sm-6,
   .enticement-section .enticement,
@@ -968,7 +971,7 @@ pre code {
     width: 25%;
   }
 
-  .col-sm-4 {
+  .col-sm-4, .be-block .be-item {
     width: 33.33333333333333%;
   }
 
@@ -7695,4 +7698,34 @@ a {
 .gplus-bg {
   width: 480px;
   height: 270px;
+}
+
+.be-block {
+  padding-bottom: 1em;
+}
+.be-block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.be-block .be-item {
+  overflow: hidden;
+}
+.be-block .be-item .glyphicon {
+  float: left;
+  font-size: 3em;
+  color: #004e80;
+}
+.be-block .be-item h3 {
+  font-size: 3em;
+  float: left;
+  margin: 0;
+  color: #004e80;
+  padding-left: 0.2em;
+}
+.be-block .be-item p {
+  clear: both;
+  padding: 1em 0;
+  max-width: 40em;
 }
